@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Red Hat Display";
+  src: url(./RedHatDisplay-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(./pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 437px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-div {
+  background-color: white;
+  width: 450px;
+  height: 697px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+}
+
+#fir-img {
+  height: 220px;
+  margin-bottom: 0px;
+}
+
+.fir-h1 {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 37px;
+  color: #1f2e55;
+  margin-top: 45px;
+  margin-bottom: 17px;
+}
+
+.fir-p {
+  text-align: center;
+  margin: 0;
+  width: 354px;
+  height: 78px;
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #717fa6;
+}
+
+#sec-div {
+  margin-top: 20px;
+  display: flex;
+  background-color: #f7f9ff;
+  width: 306px;
+  height: 50px;
+  padding: 25px 24px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+#plan {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 68.81px;
+}
+
+#anpl {
+  margin-bottom: 0px;
+  width: 117.19px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#year {
+  margin-top: 6px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717fa6;
+}
+
+#change-but {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  border-style: unset;
+  background-color: #f7f9ff;
+  color: #382ae1;
+  text-decoration-line: underline;
+}
+
+#pay-but {
+  width: 354px;
+  height: 50px;
+  background-color: #382ae1;
+  color: white;
+  border-radius: 11px;
+  border-style: unset;
+  margin-top: 0px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#cancel-but {
+  margin-top: 32px;
+  border-style: unset;
+  background-color: white;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+}
+
+#cancel-but:hover {
+  color: #1f2e55;
+  cursor: pointer;
+}
+
+#pay-but:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+}
+
+#change-but:hover {
+  color: #766cf1;
+  cursor: pointer;
+  text-decoration-line: none;
+}
